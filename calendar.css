@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  html * {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #1152e9;
+    display: grid;
+    font-size: 2rem;
+    min-height: 100vh;
+    place-content: center;
+  }
+  
+  .calendar {
+    background-color: #FFF;
+    border-radius: 0.8rem;
+    padding: 3.2rem;
+  }
+  .heading {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    color:#1027f5;
+  }
+  .days_name {
+    border-bottom: 0.1rem solid #000000;
+    display: flex;
+    gap: 0.99rem;
+    padding: 0.8rem ;
+  }
+  .day_name {
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+    width: 2.4rem;
+  }
+  .days_number {
+    display: flex;
+    flex-direction: column;
+  }
+  .days_number-row {
+    display: flex;
+    gap: 1.2rem;
+    padding: 0.6rem 0;
+  }
+  .days_number-row:first-child {
+    justify-content: flex-end;
+  }
+  .day_num {
+    align-content: center;
+    justify-content: center;
+    color: #000;
+    display: flex;
+    line-height: 1.4;
+    text-align: center;
+    width: 2.4rem;
+  }
+  .currentDate {
+    background-color: #1933f9;
+    border-radius: 20%;
+    color: #FFF;
+  }
